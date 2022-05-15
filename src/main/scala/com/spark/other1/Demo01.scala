@@ -1,7 +1,12 @@
-package com.spark
+package com.spark.other1
 
 import org.apache.spark.{SparkConf, SparkContext}
 
+/**
+ * @Descripion TODO
+ * @Author Solarzhou
+ * @Date 2022/5/15 11:11  
+ **/
 object Demo01 {
 
     def main(args: Array[String]): Unit = {
@@ -22,7 +27,3 @@ object Demo01 {
         sc.stop()
     }
 }
-//class Test02{
-//  private val test0 = new Test02
-////  Demo01
-//}
